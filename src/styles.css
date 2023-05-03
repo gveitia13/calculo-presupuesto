@@ -1,1 +1,18 @@
 /* You can add global styles to this file, and also import other style files */
+@import "bootstrap/dist/css/bootstrap.min.css";
+
+body {
+  background: #134e5e;
+  background: -webkit-linear-gradient(to right, #71b280, #134e5e);
+  background: linear-gradient(to right, #71b280, #134e5e);
+}
+
+.font-title {
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  text-transform: uppercase;
+}
+
+.text-error {
+  font-size: 1rem;
+}
